@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. MÁY TÍNH CƠ BẢN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/et_so_hang_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Số Hạng 1"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_so_hang_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Số Hạng 2"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btn_cong" android:text="+" style="@style/Widget.AppCompat.Button.Borderless" android:layout_columnWeight="1"/>
+            <Button android:id="@+id/btn_tru" android:text="-" style="@style/Widget.AppCompat.Button.Borderless" android:layout_columnWeight="1"/>
+            <Button android:id="@+id/btn_nhan" android:text="*" style="@style/Widget.AppCompat.Button.Borderless" android:layout_columnWeight="1"/>
+            <Button android:id="@+id/btn_chia" android:text="/" style="@style/Widget.AppCompat.Button.Borderless" android:layout_columnWeight="1"/>
+            <Button android:id="@+id/btn_phan_du" android:text="%" style="@style/Widget.AppCompat.Button.Borderless" android:layout_columnWeight="1"/>
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/tv_ket_qua_may_tinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Kết Quả MT: "
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. TUNG XÚC XẮC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:id="@+id/iv_xuc_xac"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="Hình ảnh xúc xắc"
+            android:src="@drawable/ic_dice_1"/> <TextView
+            android:id="@+id/tv_ket_qua_xuc_xac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Số: ?"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="4dp"/>
+
+        <Button
+            android:id="@+id/btn_tung_xuc_xac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Tung Xúc Xắc"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. GỌI ĐIỆN / NHẮN TIN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập số điện thoại"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Gọi điện (ACTION_CALL)" />
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Gửi tin nhắn (ACTION_VIEW)" />
+
+    </LinearLayout>
+</ScrollView>
