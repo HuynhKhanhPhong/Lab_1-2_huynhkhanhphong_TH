@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi Language App</string>
+    <string name="title_welcome">Welcome!</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="text_signup">Don\'t have account? Sign Up</string>
+    <string name="menu_language">Language</string>
+</resources>
