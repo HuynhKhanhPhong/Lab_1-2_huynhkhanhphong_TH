@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#714C9E</color>
+    <color name="purple_500">#7D4BC1</color>
+    <color name="purple_700">#793BC1</color>
+
+    <color name="purple_200_default">#FFBB86FC</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="orange">#FB8C00</color>
+    <color name="gray">#EAE5E3</color>
+    <color name="orangeMid">#F4511E</color>
+
+    <color name="purple_200_menu">#319FFF</color>
+    <color name="purple_500_menu">#1E88E5</color>
+    <color name="purple_700_menu">#1E88E5</color>
+
+    <color name="purple_500_emoji">#FF9800</color>
+    <color name="purple_700_emoji">#FF6F00</color>
+</resources>

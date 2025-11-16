@@ -1,0 +1,46 @@
+<resources>
+    <!-- App Names -->
+    <string name="app_name">Demo</string>
+    <string name="app_name_login">Login</string>
+    <string name="app_name_menu">Từ vựng</string>
+    <string name="app_name_emoji">Face Emoji</string>
+    <string name="app_name_animation">Animation</string>
+    <string name="app_name_quick_call">Quick call</string>
+
+    <!-- Login -->
+    <string name="txt_login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="txt_forgot_pass">Forgot password?</string>
+    <string name="txt_no_account">Don\'t have an account?</string>
+    <string name="txt_register">Register</string>
+
+    <!-- Menu Vocabulary -->
+    <string name="txt_mess">Messenger</string>
+    <string name="txt_flight">While Traveling</string>
+    <string name="txt_hospital">Help / Medical</string>
+    <string name="txt_hotel">At the hotel</string>
+    <string name="txt_restaurant">At the Restaurant</string>
+    <string name="txt_coctail">At the Bar</string>
+    <string name="txt_store">At the Store</string>
+    <string name="txt_work">Work</string>
+    <string name="txt_time">Time</string>
+    <string name="txt_education">Education</string>
+    <string name="txt_movie">Entertainment</string>
+    
+    <!--Animation-->
+    <string name="txt_scale">Scale</string>
+    <string name="txt_trans">Trans</string>
+    <string name="txt_rotate">Rotate</string>
+    <string name="txt_alpha">Alpha</string>
+
+    <!--Call Phone-->
+    <string name="txt_mom">Mom</string>
+    <string name="txt_dad">Dad</string>
+    <string name="txt_crush">Crush</string>
+    <string name="txt_best_friend">Best friend</string>
+    <string name="phone_mom">096666543</string>
+    <string name="phone_dad">096666544</string>
+    <string name="phone_crush">096886543</string>
+    <string name="phone_best_friend">099966543</string>
+</resources>

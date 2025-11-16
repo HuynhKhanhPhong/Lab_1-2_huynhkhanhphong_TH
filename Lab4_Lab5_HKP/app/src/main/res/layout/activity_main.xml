@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAB 4: ADVANCED UI DESIGN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_lab4_login"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Luyện tập 1 và Bài tập 1: Login UI"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/purple_200"/> <Button
+    android:id="@+id/btn_lab4_menu"
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="2. Luyện tập 2 và Bài tập 2: English Menu"
+    android:textSize="16sp"
+    android:paddingVertical="12dp"
+    android:layout_marginBottom="8dp"
+    android:backgroundTint="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/btn_lab4_emoji"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Luyện tập 3 và Bài tập 3: Emoji Toast"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/purple_200"/> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Lab 5: UI and Code"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:layout_gravity="start"
+    android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_lab5_animation"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luyện tập 1 và bài tập 1: Animation"
+        android:textSize="16sp"
+        android:paddingVertical="14dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="?attr/colorPrimary"/> <Button
+    android:id="@+id/btn_lab5_quickcall"
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Luyện tập 2 và bài tập 2: QuickCall"
+    android:textSize="16sp"
+    android:paddingVertical="14dp"
+    android:layout_marginBottom="12dp"
+    android:backgroundTint="?attr/colorPrimary"/>
+
+</LinearLayout>
