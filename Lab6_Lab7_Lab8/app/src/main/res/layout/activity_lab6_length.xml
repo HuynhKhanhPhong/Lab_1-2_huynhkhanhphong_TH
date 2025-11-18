@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Lab6LengthActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab6_exercise"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <EditText
+            android:id="@+id/txtLengthNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Nhập độ dài"
+            android:inputType="numberDecimal"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spnLengthUnit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/length_units_array"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tương đương với"
+        android:textStyle="bold"
+        android:background="#e0e0e0"
+        android:padding="8dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow style="@style/CurrencyTableRow">
+                <TextView style="@style/UnitTextView" android:text="Hải lý" />
+                <TextView android:id="@+id/lblLengthNautical" style="@style/ResultTextView" />
+            </TableRow>
+            <TableRow style="@style/CurrencyTableRow">
+                <TextView style="@style/UnitTextView" android:text="Dặm" />
+                <TextView android:id="@+id/lblLengthMile" style="@style/ResultTextView" />
+            </TableRow>
+            <TableRow style="@style/CurrencyTableRow">
+                <TextView style="@style/UnitTextView" android:text="Km" />
+                <TextView android:id="@+id/lblLengthKm" style="@style/ResultTextView" />
+            </TableRow>
+            <TableRow style="@style/CurrencyTableRow">
+                <TextView style="@style/UnitTextView" android:text="Lý" />
+                <TextView android:id="@+id/lblLengthLi" style="@style/ResultTextView" />
+            </TableRow>
+            <TableRow style="@style/CurrencyTableRow">
+                <TextView style="@style/UnitTextView" android:text="Mét" />
+                <TextView android:id="@+id/lblLengthMet" style="@style/ResultTextView" />
+            </TableRow>
+            <TableRow style="@style/CurrencyTableRow">
+                <TextView style="@style/UnitTextView" android:text="Yard" />
+                <TextView android:id="@+id/lblLengthYard" style="@style/ResultTextView" />
+            </TableRow>
+            <TableRow style="@style/CurrencyTableRow">
+                <TextView style="@style/UnitTextView" android:text="Foot" />
+                <TextView android:id="@+id/lblLengthFoot" style="@style/ResultTextView" />
+            </TableRow>
+            <TableRow style="@style/CurrencyTableRow">
+                <TextView style="@style/UnitTextView" android:text="Inch" />
+                <TextView android:id="@+id/lblLengthInch" style="@style/ResultTextView" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách các Bài Lab"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnLab6Currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab6_name"
+        android:onClick="openLab"
+        android:tag="currency"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLab6Length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab6_exercise"
+        android:onClick="openLab"
+        android:tag="length"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLab7Ex12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab7_ex1_2_name"
+        android:onClick="openLab"
+        android:tag="lab7_ex12"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLab7Ex3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab7_ex3_name"
+        android:onClick="openLab"
+        android:tag="lab7_ex3"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLab8Basic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab8_listview_name"
+        android:onClick="openLab"
+        android:tag="lab8_basic"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLab8Ex1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab8_ex1_name"
+        android:onClick="openLab"
+        android:tag="lab8_ex1"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLab8Ex2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab8_ex2_name"
+        android:onClick="openLab"
+        android:tag="lab8_ex2"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>

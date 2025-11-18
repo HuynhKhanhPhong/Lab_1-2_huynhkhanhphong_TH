@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Hệ thống Lab Android</string>
+    <string name="lab6_name">Lab 6: Chương trình đổi tiền tệ</string>
+    <string name="lab6_exercise">Bài tập: Đổi đơn vị đo chiều dài</string>
+    <string name="textbox_hint">Nhập số tiền</string>
+
+    <string name="usd_name">American Dollar</string>
+    <string name="eur_name">European Cash</string>
+    <string name="gbp_name">Greate Britain</string>
+    <string name="inr_name">Indian Rupe</string>
+    <string name="aud_name">Australia Dollar</string>
+    <string name="cad_name">Canadian Dollar</string>
+    <string name="zar_name">South Africa Rand</string>
+    <string name="nzd_name">New Zealand Dollar</string>
+    <string name="jpy_name">Yên Nhật</string>
+    <string name="vnd_name">Việt Nam Đồng</string>
+
+    <string name="usd_unit">USD</string>
+    <string name="eur_unit">EUR</string>
+    <string name="gbp_unit">GBP</string>
+    <string name="inr_unit">INR</string>
+    <string name="aud_unit">AUD</string>
+    <string name="cad_unit">CAD</string>
+    <string name="zar_unit">ZAR</string>
+    <string name="nzd_unit">NZD</string>
+    <string name="jpy_unit">JPY</string>
+    <string name="vnd_unit">VND</string>
+
+    <string-array name="currency_units_array">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>INR</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>ZAR</item>
+        <item>NZD</item>
+        <item>JPY</item>
+        <item>VND</item>
+    </string-array>
+
+    <string-array name="length_units_array">
+        <item>Hải lý</item>
+        <item>Dặm</item>
+        <item>Km</item>
+        <item>Lý</item>
+        <item>Mét</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>
+
+        <string name="lab7_name">Lab 7: Custom Controls</string>
+
+        <string name="lab7_ex1_2_name">Lab 7: Custom Button, Toast, Dialog</string>
+        <string name="custom_button">Custom Button</string>
+        <string name="selectors">Selectors</string>
+        <string name="shapes_selectors">Shapes + Selectors</string>
+        <string name="toast_button">TOAST</string>
+        <string name="dialog_button">DIALOG</string>
+        <string name="toast_message">Custom Toast, made by [Tên của bạn]</string>
+        <string name="dialog_title">Đăng nhập</string>
+        <string name="dialog_username_hint">Tên đăng nhập</string>
+        <string name="dialog_password_hint">Mật khẩu</string>
+        <string name="dialog_login">ĐỒNG Ý</string>
+        <string name="dialog_cancel">THOÁT</string>
+
+        <string name="lab7_ex3_name">Lab 7: Seekbar (RGB/CMY)</string>
+        <string name="choose_color">Chọn Màu Sắc</string>
+        <string name="color_r">R</string>
+        <string name="color_g">G</string>
+        <string name="color_b">B</string>
+
+    <string name="lab8_name">Lab 8: List và Grid trong Android</string>
+    <string name="lab8_ex1_name">Bài tập 1: Custom ListView (Quản lý món ăn)</string>
+    <string name="lab8_ex2_name">Bài tập 2: Custom GridView (Danh sách cộng tác viên)</string>
+
+    <string name="lab8_listview_name">Lab 8: ListView Cơ Bản</string>
+    <string name="title_android">Android</string>
+    <string name="content_android">Đây là hệ điều hành Android</string>
+    <string name="title_ios">iOS</string>
+    <string name="content_ios">Đây là hệ điều hành iOS</string>
+    <string name="title_wp">Window Phone</string>
+    <string name="content_wp">Đây là hệ điều hành Window Phone</string>
+    <string name="selected_item">Bạn chọn:</string>
+
+    <string name="food_menu_title">Đồ ăn nhanh Mình Nhật</string>
+    <string name="food_add">Thêm mới</string>
+    <string name="food_exit">Thoát</string>
+    <string name="food_price_template">Giá: %s₫</string>
+
+    <string name="grid_title">The Rap Genius Contributors</string>
+
+</resources>

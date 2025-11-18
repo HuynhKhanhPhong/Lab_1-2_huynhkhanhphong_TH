@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Lab7SeekbarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout style="@style/SeekbarRowStyle">
+        <TextView android:id="@+id/tvRValue" style="@style/SeekbarValueLabel" android:text="@string/color_r"/>
+        <SeekBar
+            android:id="@+id/seekBarR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/SeekbarRowStyle">
+        <TextView android:id="@+id/tvGValue" style="@style/SeekbarValueLabel" android:text="@string/color_g"/>
+        <SeekBar
+            android:id="@+id/seekBarG"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/SeekbarRowStyle">
+        <TextView android:id="@+id/tvBValue" style="@style/SeekbarValueLabel" android:text="@string/color_b"/>
+        <SeekBar
+            android:id="@+id/seekBarB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RGB"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CMY"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <View
+            android:id="@+id/colorBlockRgb"
+            style="@style/ColorBlockStyle"
+            android:background="#000000"/>
+
+        <View
+            android:id="@+id/colorBlockCmy"
+            style="@style/ColorBlockStyle"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>

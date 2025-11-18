@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".Lab7CustomControlsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_button"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/selectors"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/shapes_selectors"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnColorSelector"
+            style="@style/CustomButtonStyle"
+            android:layout_weight="1"
+            android:background="@drawable/button_color_selector"
+            android:text="COLOR SELECTOR"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/btnRoundShape"
+            style="@style/CustomButtonStyle"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_shape"
+            android:text="ROUND SHAPE"
+            android:textColor="#000000"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnGradientSelector"
+            style="@style/CustomButtonStyle"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_button"
+            android:text="SHAPE WITH GRADIENT"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/btnBasicColor"
+            style="@style/CustomButtonStyle"
+            android:layout_weight="1"
+            android:background="#D32F2F"
+            android:text="REACTION"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:id="@+id/btnToast"
+            style="@style/CustomButtonStyle"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_shape"
+            android:text="@string/toast_button"
+            android:onClick="showCustomToast"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/btnDialog"
+            style="@style/CustomButtonStyle"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_shape"
+            android:text="@string/dialog_button"
+            android:onClick="showCustomDialog"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
