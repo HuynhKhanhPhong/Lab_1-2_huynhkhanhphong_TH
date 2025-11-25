@@ -1,0 +1,71 @@
+Tiêu đề: Lập trình viên và tủ lạnh
+Một lập trình viên (LTV) về nhà lúc nửa đêm, mở tủ lạnh.
+Vợ anh ta hỏi: "Anh đang làm gì vậy?"
+LTV đáp: "Em yên tâm, anh chỉ kiểm tra xem nó có bị loop vô hạn (infinite loop) không thôi."
+Vợ: "Tủ lạnh mà loop gì?"
+LTV: "Anh mở đèn, đèn sáng. Anh đóng, đèn tắt. Anh sợ nó cứ mở/tắt mãi mà không thoát ra được."
+Vợ: "Thế anh có tìm thấy lỗi nào không?"
+LTV: "Có, lỗi là anh vẫn đói!"
+', '0');
+Tiêu đề: Cái giá của sự thông minh
+Một anh chàng lập trình viên khoe với bạn bè:
+"Tớ thông minh đến mức tớ đã mua một chiếc đồng hồ thông minh (smartwatch) bị hỏng."
+Bạn bè ngạc nhiên: "Sao cậu lại làm thế?"
+Anh ta nháy mắt: "Bởi vì nó hiển thị giờ muộn hơn 5 phút. Nhờ thế mà tớ luôn đến muộn một cách thông minh và chuyên nghiệp."
+', '0');
+Tiêu đề: Mèo và mạng WiFi
+Ông chồng than vãn: "Mạng nhà mình chậm quá, chắc chắn là con mèo lại cắn dây mạng rồi!"
+Cô vợ: "Vớ vẩn! Làm gì có mèo nào cắn dây mạng?"
+Ông chồng chỉ vào con mèo đang nằm ngủ trên cục WiFi: "Thế sao nó lại ngồi trên router như thế? Nó đang chặn băng thông 5G của tôi!"
+Cô vợ: "Nó chỉ đang sưởi ấm cục WiFi thôi, anh đừng đổ lỗi cho nó nữa."
+Ông chồng: "Đấy! Nó đang dùng băng thông để sưởi ấm đấy!"
+', '0');
+Tiêu đề: Giám đốc và kế hoạch
+Trong cuộc họp quý, Giám đốc hỏi: "Kế hoạch kinh doanh của quý này là gì?"
+Trưởng phòng Marketing đứng dậy: "Kế hoạch của chúng ta là không có kế hoạch!"
+Giám đốc ngạc nhiên: "Ý anh là sao?"
+Trưởng phòng: "Vì mọi lần chúng ta có kế hoạch, chúng ta đều thất bại. Lần này không có kế hoạch, chúng ta không thể thất bại theo kế hoạch được nữa!"
+Giám đốc: "Tuyệt vời! Anh được tăng lương!"
+', '0');
+Tiêu đề: Lần đầu đi xem phim
+Hai vợ chồng nhà nọ lần đầu đi xem phim 3D.
+Ông chồng đeo kính 3D vào, thốt lên: "Ôi giời ơi, hình ảnh thật quá, y như thật!"
+Bà vợ: "Thế thì có gì đáng nói?"
+Ông chồng: "Không, ý anh là cái bà ngồi cạnh anh, bà ấy đang ăn bắp rang bơ, mà anh ngửi thấy cả mùi bắp rang bơ 3D luôn!"
+Bà vợ: "Đó là mùi bắp rang bơ thật đấy!"
+Ông chồng: "À, thế thì anh mới bảo, công nghệ này còn phải học hỏi bà ấy nhiều!"
+', '0');
+Tiêu đề: Sự nhầm lẫn của thầy giáo
+Thầy giáo hỏi một học sinh: "Em hãy cho thầy biết, tại sao Trái Đất lại quay quanh Mặt Trời?"
+Học sinh: "Dạ thưa thầy, vì Trái Đất không muốn đến trường."
+Thầy giáo: "..."
+Học sinh: "Nếu Trái Đất không quay quanh Mặt Trời, nó sẽ bị kéo vào Mặt Trời và bị cháy. Mà bị cháy thì không phải đến trường nữa, thầy ạ!"
+Thầy giáo: "Thôi được rồi, em ra ngoài hành lang đứng đi."
+', '0');
+Tiêu đề: Món quà cho người yêu
+Một chàng trai mua tặng bạn gái một con búp bê Babushka (búp bê Nga lồng nhau).
+Cô gái: "Ôi, em thích nó quá! Nhưng tại sao lại là Babushka?"
+Chàng trai: "Bởi vì nó giống như tình yêu của chúng ta vậy."
+Cô gái cảm động: "Thật lãng mạn!"
+Chàng trai: "Mỗi lần em mở ra một lớp, em lại thấy một vấn đề mới!"
+', '0');
+Tiêu đề: Đồ ăn và điện thoại
+Một người mẹ nhìn con trai đang cắm mặt vào điện thoại khi ăn:
+"Con trai, sao con cứ ôm điện thoại thế? Con có thể bỏ nó xuống một lúc được không?"
+Cậu bé: "Con không thể, mẹ ạ."
+Mẹ: "Tại sao?"
+Cậu bé: "Bởi vì nếu con bỏ điện thoại xuống, con sẽ phải nói chuyện với mẹ!"
+', '0');
+Tiêu đề: Định luật Newton thứ nhất
+Giáo sư Vật lý đang giảng bài về Định luật Newton thứ nhất: "Một vật đang đứng yên sẽ tiếp tục đứng yên, trừ khi có một lực tác động lên nó."
+Một sinh viên hỏi: "Vậy thì làm sao giải thích việc em luôn ngủ quên vào buổi sáng?"
+Giáo sư: "Đó là do định luật thứ nhất đang hoạt động hoàn hảo. Lực tác động lên em chỉ đơn giản là không đủ mạnh thôi."
+', '0');
+Tiêu đề: Người yêu và Code
+Một lập trình viên nói với bạn gái:
+"Em biết không, code của anh và em có một điểm chung."
+Bạn gái: "Là gì?"
+LTV: "Cả hai đều cần được cập nhật (update) thường xuyên, nhưng anh luôn sợ làm hỏng cấu trúc cũ!"
+Bạn gái: "Vậy anh có sẵn sàng thêm một dòng code mới (add new feature) không?"
+LTV: "Có chứ, miễn là nó không gây ra bug!"
+', '0');

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#192A56"
+    tools:context=".M002DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#2E4A7D"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUAY LẠI" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/iv_detail_icon"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="Detail Zodiac Icon" />
+
+            <TextView
+                android:id="@+id/tv_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bọ Cạp Scorpio (24/10 - 21/11)"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/tv_detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nội dung chi tiết của cung hoàng đạo (sẽ được nhận từ Intent). Sử dụng ScrollView."
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

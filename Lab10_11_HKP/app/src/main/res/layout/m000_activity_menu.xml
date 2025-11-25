@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/greenSuperLight"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ỨNG DỤNG HỌC PHẦN ANDROID"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/greenMid"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btn_lab_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 10: Ứng dụng Truyện Cười"
+        android:textSize="18sp"
+        android:backgroundTint="@color/greenLight"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_lab_09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 09: [Chưa có nội dung]"
+        android:textSize="18sp"
+        android:enabled="false"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@color/white"
+        android:padding="15dp" />
+    <Button
+        android:id="@+id/btn_lab_11_cung_hoang_dao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_app_zodiac"
+        android:textSize="18sp"
+        android:backgroundTint="@color/zodiac_card"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TruyenCuoi</string>
+    <string name="topic_name">Truyện cười Không mắc cười</string>
+    <string name="txt_story_name_sample">Vừa đúng vừa sai</string>
+    <string name="desc_viewpager_story">Danh sách các truyện, vuốt sang trái hoặc phải để chuyển truyện</string>
+    <string name="title_menu_app">ỨNG DỤNG HỌC PHẦN ANDROID</string>
+    <string name="btn_lab_10_11">LAB 10: Ứng dụng Truyện Cười</string>
+    <string name="btn_lab_09">LAB 09: [Chưa có nội dung]</string>
+    <string name="title_app_zodiac">LAB 11: APP 12 CUNG HOÀNG ĐẠO</string>
+    <string name="btn_xem_them">XEM THÊM</string>
+    <string name="btn_quay_lai">QUAY LẠI</string>
+    <string name="zodiac_name_sample">Virgo (23/8 - 22/9)</string>
+    <string name="zodiac_content_sample">Nội dung chi tiết cung hoàng đạo...</string>
+    <string name="topic_name_default">Truyện cười</string>
+</resources>
